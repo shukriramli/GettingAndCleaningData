@@ -18,7 +18,7 @@ It should run in a folder of the Samsung data (the zip had this folder: UCI HAR 
     test/
     train/
 
-The output is created in working directory with the name of tidy2.txt
+The output is created in working directory with the name of data_set_with_the_averages.txt
 
 Note: the R script is built to run without including any libraries for the purpose of this course.
 run_analysis.R walkthrough
@@ -45,5 +45,5 @@ It follows the goals step by step.
         Create a new data frame by finding the mean for each combination of subject and label. It's done by aggregate() function
 
     Final step:
-        Write the new tidy set into a text file called tidy2.txt, formatted similarly to the original files.
+        Write the new tidy set into a text file called data_set_with_the_averages.txt, formatted similarly to the original files.
 
